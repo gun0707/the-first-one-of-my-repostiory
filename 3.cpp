@@ -1,14 +1,19 @@
-#include <iostream>
-using  namespace std;
-int main() {
-	double length,width,height,volume;
-	cout<<"请输入长方体的长:";
-	cin >>length;
-	cout<<"请输入长方体的宽:";
-	cin>>width;
-	cout<<"请输入长方体的高:";
-	cin>>height;
-	volume=length*width*height;
-	cout<<"长方体的体积是:"<<volume;
-	return 1;
+#include<iostream>
+using namespace std;
+
+int  main() {
+	int m, n;
+	int temp = 0,ans = 0;
+	for (int i = 1;i <= 7;i++) {
+		cin >> m >> n;
+		if (m + n > 8 && m + n > temp) {
+			temp = m + n;ans = i;
+		}
+	}
+		cout << ans;
+
+	
+		
+	
+	return 0;
 }
