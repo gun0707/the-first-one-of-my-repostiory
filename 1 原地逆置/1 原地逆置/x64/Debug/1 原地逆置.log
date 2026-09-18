@@ -1,0 +1,23 @@
+﻿  1.cpp
+D:\桌面\桌面\Documents\1 原地逆置\1.cpp(21,7): error C2601: “create_list”: 本地函数定义是非法的
+      D:\桌面\桌面\Documents\1 原地逆置\1.cpp(4,11):
+      此行有一个“{”没有匹配项
+  
+D:\桌面\桌面\Documents\1 原地逆置\1.cpp(22,2): error C2065: “Node”: 未声明的标识符
+D:\桌面\桌面\Documents\1 原地逆置\1.cpp(22,8): error C2065: “head”: 未声明的标识符
+D:\桌面\桌面\Documents\1 原地逆置\1.cpp(22,19): error C2061: 语法错误: 标识符“Node”
+D:\桌面\桌面\Documents\1 原地逆置\1.cpp(23,2): error C2065: “head”: 未声明的标识符
+D:\桌面\桌面\Documents\1 原地逆置\1.cpp(24,2): error C2065: “Node”: 未声明的标识符
+D:\桌面\桌面\Documents\1 原地逆置\1.cpp(24,8): error C2065: “tail”: 未声明的标识符
+D:\桌面\桌面\Documents\1 原地逆置\1.cpp(24,15): error C2065: “head”: 未声明的标识符
+D:\桌面\桌面\Documents\1 原地逆置\1.cpp(26,3): error C2065: “Node”: 未声明的标识符
+D:\桌面\桌面\Documents\1 原地逆置\1.cpp(26,9): error C2065: “p”: 未声明的标识符
+D:\桌面\桌面\Documents\1 原地逆置\1.cpp(26,17): error C2061: 语法错误: 标识符“Node”
+D:\桌面\桌面\Documents\1 原地逆置\1.cpp(27,3): error C2065: “p”: 未声明的标识符
+D:\桌面\桌面\Documents\1 原地逆置\1.cpp(27,12): error C2065: “e”: 未声明的标识符
+D:\桌面\桌面\Documents\1 原地逆置\1.cpp(28,3): error C2065: “p”: 未声明的标识符
+D:\桌面\桌面\Documents\1 原地逆置\1.cpp(29,3): error C2065: “tail”: 未声明的标识符
+D:\桌面\桌面\Documents\1 原地逆置\1.cpp(29,16): error C2065: “p”: 未声明的标识符
+D:\桌面\桌面\Documents\1 原地逆置\1.cpp(30,3): error C2065: “tail”: 未声明的标识符
+D:\桌面\桌面\Documents\1 原地逆置\1.cpp(30,10): error C2065: “p”: 未声明的标识符
+D:\桌面\桌面\Documents\1 原地逆置\1.cpp(32,9): error C2065: “head”: 未声明的标识符

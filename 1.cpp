@@ -1,24 +1,29 @@
 #include<iostream>
 using namespace std;
+#include<string>
 int main() {
-	int k = 0;
-	cin >> k;
-
-	
-	double Sn = 0;
-	int i = 1;
-	while (1) {
+	string m;
+	getline(cin, m);
+	int count = 0;
+	for (int i = 0;i < m.size();i++) {
+		if(count<0) {
+			cout << "NO" << endl;
+			break;
+		}
+		if (m[i] == '(') {
+			count++;
+		}if (m[i] == ')') {
+			count--;
+		}
+		if (m[i] == '@') {
+			if (count == 0) {
+				cout << "YES" << endl;
+				break;
+			}
+			else cout << "NO" << endl;
+		}
 		
-		double t = 1;
-
-		t = t / i;
-		
-		Sn += t;
-		if (Sn > k) {
-			cout << i ;break;
-		}i++;
 	}
-
 	return 0;
-
 }
+	
